@@ -28,9 +28,6 @@ public class calculator2 {
         }
         return restriction(a / b);
     }
-
-
-
     public static int module(int w){
        if(w < 0){
            w = -w;
