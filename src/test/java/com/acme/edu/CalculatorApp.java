@@ -10,6 +10,7 @@ public class CalculatorApp {
 
         per= calculator2.sum(a,b);
         System.out.println("Сумма чисел а и b:         " + calculator2.sum(a,b));
+
         mem=calculator2.addToMemory(per, mem);
         System.out.println("Общая сумма операций:      " + mem);
 
